@@ -1,0 +1,44 @@
+# ============================================================
+# Real Estate Legal Knowledge Graph - Requirements
+# ============================================================
+
+# --- Data Loading ---
+datasets==2.20.0          # HuggingFace datasets
+huggingface-hub==0.23.4   # HF Hub API
+pandas==2.2.2             # DataFrame operations
+pyarrow==16.1.0           # Parquet support
+
+# --- HTML Parsing ---
+beautifulsoup4==4.12.3    # Parse HTML content from dataset
+lxml==5.2.2               # Faster HTML parser backend
+
+# --- Text Processing ---
+regex==2024.5.15          # Advanced regex for Vietnamese text
+
+# --- Knowledge Graph / Neo4j ---
+neo4j==5.21.0             # Official Neo4j Python driver
+py2neo==2021.2.4          # Higher-level Neo4j OGM (optional)
+
+# --- Visualization ---
+pyvis==0.3.2              # Interactive HTML graph visualization
+
+# --- Utilities ---
+python-dotenv==1.0.1      # .env config management
+tqdm==4.66.4              # Progress bars
+loguru==0.7.2             # Structured logging
+rich==13.7.1              # Terminal pretty-printing
+
+
+# --- Phase 2: Vector DB & Multi-Agent ---
+qdrant-client>=1.9.0
+crewai>=0.30.0
+crewai-tools>=0.3.0
+langchain-openai>=0.1.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+tenacity>=8.2.0
+
+# --- API & Streaming ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+scikit-learn>=1.4.0

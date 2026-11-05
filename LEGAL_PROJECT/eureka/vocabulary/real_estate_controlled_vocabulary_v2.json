@@ -1,0 +1,1363 @@
+{
+  "metadata": {
+    "title": "Real Estate Legal Knowledge Graph Controlled Vocabulary",
+    "version": "2.0",
+    "domain": "Vietnamese Real Estate Law (Luật Đất đai 2024, Luật Nhà ở 2023, Luật Kinh doanh BĐS 2023, Luật Đầu tư 2020)",
+    "description": "Controlled vocabulary v2 for Real Estate Legal Knowledge Graph with comprehensive aliases across all entity types.",
+    "created_at": "2026-09-05"
+  },
+  "legal_concepts": [
+    {
+      "id": "concept:thua_dat",
+      "name_vi": "Thửa đất",
+      "aliases": [
+        "Lô đất",
+        "Mảnh đất",
+        "Thửa đất địa chính"
+      ],
+      "domain": "DatDai",
+      "description": "Phần diện tích đất được giới hạn bởi ranh giới xác định trên thực địa hoặc được mô tả trên hồ sơ địa chính."
+    },
+    {
+      "id": "concept:quyen_su_dung_dat",
+      "name_vi": "Quyền sử dụng đất",
+      "aliases": [
+        "QSDĐ",
+        "Quyền sử dụng đất đai"
+      ],
+      "domain": "DatDai",
+      "description": "Quyền của người sử dụng đất được khai thác công dụng, hưởng hoa lợi, lợi tức từ đất đai theo quy định của pháp luật."
+    },
+    {
+      "id": "concept:giay_chung_nhan_quyen_su_dung_dat",
+      "name_vi": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "aliases": [
+        "Sổ đỏ",
+        "Sổ hồng",
+        "Giấy chứng nhận",
+        "GCNQSDĐ"
+      ],
+      "domain": "DatDai",
+      "description": "Chứng thư pháp lý để Nhà nước xác nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hợp pháp."
+    },
+    {
+      "id": "concept:chuyen_nhuong_quyen_su_dung_dat",
+      "name_vi": "Chuyển nhượng quyền sử dụng đất",
+      "aliases": [
+        "Mua bán đất",
+        "Chuyển nhượng đất",
+        "Giao dịch chuyển nhượng QSDĐ"
+      ],
+      "domain": "DatDai",
+      "description": "Giao dịch pháp lý giữa bên chuyển nhượng và bên nhận chuyển nhượng quyền sử dụng đất có đền bù bằng tiền."
+    },
+    {
+      "id": "concept:chuyen_doi_quyen_su_dung_dat",
+      "name_vi": "Chuyển đổi quyền sử dụng đất",
+      "aliases": [
+        "Đổi đất",
+        "Đổi đất nông nghiệp"
+      ],
+      "domain": "DatDai",
+      "description": "Giao dịch chuyển đổi quyền sử dụng đất nông nghiệp trong cùng một đơn vị hành chính cấp xã."
+    },
+    {
+      "id": "concept:cho_thue_quyen_su_dung_dat",
+      "name_vi": "Cho thuê quyền sử dụng đất",
+      "aliases": [
+        "Thuê đất",
+        "Cho thuê lại quyền sử dụng đất"
+      ],
+      "domain": "DatDai",
+      "description": "Hợp đồng theo đó bên cho thuê chuyển giao quyền sử dụng đất cho bên thuê trong một thời hạn nhất định để nhận tiền thuê."
+    },
+    {
+      "id": "concept:the_chap_quyen_su_dung_dat",
+      "name_vi": "Thế chấp quyền sử dụng đất",
+      "aliases": [
+        "Cầm cố đất",
+        "Vay thế chấp sổ đỏ",
+        "Thế chấp QSDĐ"
+      ],
+      "domain": "DatDai",
+      "description": "Việc người sử dụng đất dùng quyền sử dụng đất của mình để bảo đảm thực hiện nghĩa vụ dân sự đối với bên nhận thế chấp."
+    },
+    {
+      "id": "concept:thua_ke_quyen_su_dung_dat",
+      "name_vi": "Thừa kế quyền sử dụng đất",
+      "aliases": [
+        "Di sản quyền sử dụng đất",
+        "Thừa kế đất đai"
+      ],
+      "domain": "DatDai",
+      "description": "Việc chuyển quyền sử dụng đất của người chết cho người thừa kế theo di chúc hoặc theo pháp luật."
+    },
+    {
+      "id": "concept:tang_cho_quyen_su_dung_dat",
+      "name_vi": "Tặng cho quyền sử dụng đất",
+      "aliases": [
+        "Cho đất",
+        "Tặng quyền sử dụng đất"
+      ],
+      "domain": "DatDai",
+      "description": "Sự thỏa thuận giữa các bên, theo đó bên tặng cho chuyển giao quyền sử dụng đất của mình cho bên được tặng cho mà không yêu cầu đền bù."
+    },
+    {
+      "id": "concept:gop_von_bang_quyen_su_dung_dat",
+      "name_vi": "Góp vốn bằng quyền sử dụng đất",
+      "aliases": [
+        "Góp đất thành lập doanh nghiệp",
+        "Góp vốn QSDĐ"
+      ],
+      "domain": "DatDai",
+      "description": "Việc đưa quyền sử dụng đất vào để góp vốn thành lập doanh nghiệp hoặc hợp tác kinh doanh."
+    },
+    {
+      "id": "concept:giao_dat_co_thu_tien",
+      "name_vi": "Giao đất có thu tiền sử dụng đất",
+      "aliases": [
+        "Giao đất thu tiền",
+        "Giao đất ở"
+      ],
+      "domain": "DatDai",
+      "description": "Việc Nhà nước ban hành quyết định giao đất cho đối tượng có nhu cầu sử dụng đất và người được giao đất phải nộp tiền sử dụng đất."
+    },
+    {
+      "id": "concept:giao_dat_khong_thu_tien",
+      "name_vi": "Giao đất không thu tiền sử dụng đất",
+      "aliases": [
+        "Giao đất miễn tiền",
+        "Giao đất nông nghiệp"
+      ],
+      "domain": "DatDai",
+      "description": "Việc Nhà nước giao đất cho cá nhân trực tiếp sản xuất nông nghiệp hoặc cơ quan nhà nước sử dụng vào mục đích công cộng không kinh doanh."
+    },
+    {
+      "id": "concept:cho_thue_dat",
+      "name_vi": "Cho thuê đất của Nhà nước",
+      "aliases": [
+        "Nhà nước cho thuê đất",
+        "Thuê đất nhà nước"
+      ],
+      "domain": "DatDai",
+      "description": "Việc Nhà nước quyết định trao quyền sử dụng đất cho đối tượng có nhu cầu sử dụng đất thông qua hợp đồng cho thuê đất."
+    },
+    {
+      "id": "concept:thu_hoi_dat",
+      "name_vi": "Thu hồi đất",
+      "aliases": [
+        "Nhà nước thu hồi đất",
+        "Giải tỏa đất"
+      ],
+      "domain": "DatDai",
+      "description": "Việc Nhà nước ban hành quyết định thu lại quyền sử dụng đất của người được Nhà nước trao quyền sử dụng đất hoặc thu lại đất của người sử dụng đất vi phạm pháp luật."
+    },
+    {
+      "id": "concept:boi_thuong_ho_tro_tai_dinh_cu",
+      "name_vi": "Bồi thường, hỗ trợ, tái định cư",
+      "aliases": [
+        "Đền bù giải phóng mặt bằng",
+        "Tái định cư",
+        "Bồi thường đất"
+      ],
+      "domain": "DatDai",
+      "description": "Chính sách của Nhà nước nhằm bù đắp thiệt hại về đất đai, tài sản và hỗ trợ ổn định đời sống khi Nhà nước thu hồi đất."
+    },
+    {
+      "id": "concept:bang_gia_dat",
+      "name_vi": "Bảng giá đất",
+      "aliases": [
+        "Bảng giá đất cấp tỉnh",
+        "Giá đất nhà nước ban hành"
+      ],
+      "domain": "DatDai",
+      "description": "Bảng tập hợp các mức giá đất cho từng loại đất do UBND cấp tỉnh ban hành định kỳ hàng năm và công bố áp dụng từ 01/01."
+    },
+    {
+      "id": "concept:gia_dat_cu_the",
+      "name_vi": "Giá đất cụ thể",
+      "aliases": [
+        "Giá đất định giá",
+        "Giá đất tính tiền sử dụng đất dự án"
+      ],
+      "domain": "DatDai",
+      "description": "Giá trị của thửa đất được xác định theo phương pháp định giá đất cụ thể do cơ quan có thẩm quyền phê duyệt cho từng trường hợp riêng biệt."
+    },
+    {
+      "id": "concept:tien_su_dung_dat",
+      "name_vi": "Tiền sử dụng đất",
+      "aliases": [
+        "Thuế đất",
+        "Phí sử dụng đất"
+      ],
+      "domain": "DatDai",
+      "description": "Số tiền mà người sử dụng đất phải nộp cho Nhà nước khi được Nhà nước giao đất có thu tiền sử dụng đất, cho phép chuyển mục đích sử dụng đất hoặc công nhận QSDĐ."
+    },
+    {
+      "id": "concept:tien_thue_dat",
+      "name_vi": "Tiền thuê đất",
+      "aliases": [
+        "Tiền thuê đất hàng năm",
+        "Tiền thuê đất một lần"
+      ],
+      "domain": "DatDai",
+      "description": "Số tiền mà người sử dụng đất phải nộp cho Nhà nước khi được Nhà nước cho thuê đất."
+    },
+    {
+      "id": "concept:dang_ky_bien_dong_dat_dai",
+      "name_vi": "Đăng ký biến động đất đai",
+      "aliases": [
+        "Đăng bộ",
+        "Sang tên sổ đỏ",
+        "Cập nhật biến động"
+      ],
+      "domain": "DatDai",
+      "description": "Việc thực hiện thủ tục ghi nhận thay đổi về người sử dụng đất, ranh giới, diện tích, mục đích sử dụng đất hoặc tài sản gắn liền với đất vào hồ sơ địa chính."
+    },
+    {
+      "id": "concept:dat_o",
+      "name_vi": "Đất ở",
+      "aliases": [
+        "Đất thổ cư",
+        "Đất ở tại đô thị",
+        "Đất ở tại nông thôn"
+      ],
+      "domain": "DatDai",
+      "description": "Đất để xây dựng nhà ở, các công trình phục vụ đời sống của hộ gia đình, cá nhân trong cùng một thửa đất."
+    },
+    {
+      "id": "concept:dat_nong_nghiep",
+      "name_vi": "Đất nông nghiệp",
+      "aliases": [
+        "Đất canh tác",
+        "Đất trồng cây",
+        "Đất nuôi trồng thủy sản"
+      ],
+      "domain": "DatDai",
+      "description": "Đất sử dụng vào mục đích sản xuất nông nghiệp, lâm nghiệp, nuôi trồng thủy sản, làm muối."
+    },
+    {
+      "id": "concept:dat_phi_nong_nghiep",
+      "name_vi": "Đất phi nông nghiệp",
+      "aliases": [
+        "Đất thương mại dịch vụ",
+        "Đất sản xuất kinh doanh",
+        "Đất khu công nghiệp"
+      ],
+      "domain": "DatDai",
+      "description": "Nhóm đất không sử dụng vào mục đích nông nghiệp, bao gồm đất ở, đất xây dựng trụ sở, đất thương mại, dịch vụ, công nghiệp..."
+    },
+    {
+      "id": "concept:nha_o_thuong_mai",
+      "name_vi": "Nhà ở thương mại",
+      "aliases": [
+        "Dự án nhà ở thương mại",
+        "Căn hộ thương mại"
+      ],
+      "domain": "NhaO",
+      "description": "Nhà ở được đầu tư xây dựng để bán, cho thuê, cho thuê mua theo cơ chế thị trường."
+    },
+    {
+      "id": "concept:nha_o_xa_hoi",
+      "name_vi": "Nhà ở xã hội",
+      "aliases": [
+        "NOXH",
+        "Nhà ở giá rẻ cho công nhân"
+      ],
+      "domain": "NhaO",
+      "description": "Nhà ở có sự hỗ trợ của Nhà nước cho các đối tượng được hưởng chính sách hỗ trợ về nhà ở theo quy định của Luật Nhà ở."
+    },
+    {
+      "id": "concept:nha_o_tai_dinh_cu",
+      "name_vi": "Nhà ở phục vụ tái định cư",
+      "aliases": [
+        "Nhà tái định cư",
+        "Căn hộ tái định cư"
+      ],
+      "domain": "NhaO",
+      "description": "Nhà ở để bố trí cho các đối tượng được tái định cư khi Nhà nước thu hồi đất ở, giải tỏa nhà ở."
+    },
+    {
+      "id": "concept:nha_chung_cu",
+      "name_vi": "Nhà chung cư",
+      "aliases": [
+        "Chung cư",
+        "Tòa nhà chung cư",
+        "Căn hộ chung cư"
+      ],
+      "domain": "NhaO",
+      "description": "Nhà có từ 2 tầng trở lên, có nhiều căn hộ, có lối đi, cầu thang chung, có phần sở hữu riêng, phần sở hữu chung."
+    },
+    {
+      "id": "concept:nha_o_rieng_le",
+      "name_vi": "Nhà ở riêng lẻ",
+      "aliases": [
+        "Nhà phố",
+        "Biệt thự",
+        "Nhà liền kề"
+      ],
+      "domain": "NhaO",
+      "description": "Nhà ở được xây dựng trên thửa đất ở riêng biệt thuộc quyền sử dụng hợp pháp của tổ chức, cá nhân."
+    },
+    {
+      "id": "concept:quyen_so_huu_nha_o",
+      "name_vi": "Quyền sở hữu nhà ở",
+      "aliases": [
+        "Sở hữu nhà ở",
+        "Xác lập quyền sở hữu nhà"
+      ],
+      "domain": "NhaO",
+      "description": "Quyền chiếm hữu, sử dụng, định đoạt nhà ở của chủ sở hữu nhà ở hợp pháp."
+    },
+    {
+      "id": "concept:kinh_phi_bao_tri_nha_chung_cu",
+      "name_vi": "Kinh phí bảo trì phần sở hữu chung nhà chung cư",
+      "aliases": [
+        "Phí bảo trì 2%",
+        "Quỹ bảo trì chung cư"
+      ],
+      "domain": "NhaO",
+      "description": "Khoản tiền bằng 2% giá trị căn hộ hoặc diện tích khác do người mua, thuê mua nộp để bảo trì phần sở hữu chung của nhà chung cư."
+    },
+    {
+      "id": "concept:ban_quan_tri_nha_chung_cu",
+      "name_vi": "Ban quản trị nhà chung cư",
+      "aliases": [
+        "BQT chung cư"
+      ],
+      "domain": "NhaO",
+      "description": "Tổ chức được Hội nghị nhà chung cư bầu ra để đại diện cho các chủ sở hữu quản lý, sử dụng nhà chung cư."
+    },
+    {
+      "id": "concept:thue_mua_nha_o_xa_hoi",
+      "name_vi": "Thuê mua nhà ở xã hội",
+      "aliases": [
+        "Thuê mua NOXH"
+      ],
+      "domain": "NhaO",
+      "description": "Hình thức người thuê mua thanh toán trước một tỷ lệ giá trị nhà ở và trả dần tiền thuê mua hàng tháng; khi trả hết thì được công nhận quyền sở hữu."
+    },
+    {
+      "id": "concept:cai_tao_xay_dung_lai_nha_chung_cu",
+      "name_vi": "Cải tạo, xây dựng lại nhà chung cư",
+      "aliases": [
+        "Xây lại chung cư cũ",
+        "Cải tạo chung cư"
+      ],
+      "domain": "NhaO",
+      "description": "Việc phá dỡ để xây dựng lại nhà chung cư mới hoặc nâng cấp, sửa chữa nhà chung cư bị hư hỏng, nguy hiểm."
+    },
+    {
+      "id": "concept:kinh_doanh_bat_dong_san",
+      "name_vi": "Kinh doanh bất động sản",
+      "aliases": [
+        "Kinh doanh BĐS",
+        "Đầu tư kinh doanh địa ốc"
+      ],
+      "domain": "KDBDS",
+      "description": "Hoạt động nhằm mục đích tìm kiếm lợi nhuận thông qua việc đầu tư vốn để tạo lập nhà ở, công trình xây dựng hoặc QSDĐ để bán, chuyển nhượng, cho thuê."
+    },
+    {
+      "id": "concept:bat_dong_san_co_san",
+      "name_vi": "Nhà ở, công trình xây dựng có sẵn",
+      "aliases": [
+        "Bất động sản hiện hữu",
+        "Nhà ở đã hoàn thành"
+      ],
+      "domain": "KDBDS",
+      "description": "Nhà ở, công trình xây dựng đã hoàn thành việc đầu tư xây dựng và nghiệm thu đưa vào sử dụng."
+    },
+    {
+      "id": "concept:nha_o_hinh_thanh_trong_tuong_lai",
+      "name_vi": "Nhà ở hình thành trong tương lai",
+      "aliases": [
+        "Bất động sản hình thành trong tương lai",
+        "Nhà ở trên giấy",
+        "Căn hộ tương lai"
+      ],
+      "domain": "KDBDS",
+      "description": "Nhà ở đang trong quá trình đầu tư xây dựng và chưa được nghiệm thu đưa vào sử dụng."
+    },
+    {
+      "id": "concept:cong_trinh_xay_dung_hinh_thanh_trong_tuong_lai",
+      "name_vi": "Công trình xây dựng hình thành trong tương lai",
+      "aliases": [
+        "Công trình tương lai"
+      ],
+      "domain": "KDBDS",
+      "description": "Công trình xây dựng đang trong quá trình thi công xây dựng và chưa được nghiệm thu đưa vào sử dụng theo quy định của pháp luật về xây dựng."
+    },
+    {
+      "id": "concept:hop_dong_kinh_doanh_bat_dong_san",
+      "name_vi": "Hợp đồng kinh doanh bất động sản",
+      "aliases": [
+        "Hợp đồng giao dịch BĐS"
+      ],
+      "domain": "KDBDS",
+      "description": "Sự thỏa thuận bằng văn bản giữa doanh nghiệp kinh doanh BĐS với khách hàng về việc mua bán, chuyển nhượng, cho thuê BĐS."
+    },
+    {
+      "id": "concept:hop_dong_mua_ban_nha_o_hinh_thanh_trong_tuong_lai",
+      "name_vi": "Hợp đồng mua bán nhà ở hình thành trong tương lai",
+      "aliases": [
+        "Hợp đồng mua bán căn hộ tương lai"
+      ],
+      "domain": "KDBDS",
+      "description": "Hợp đồng quy định việc mua bán nhà ở đang xây dựng, kèm theo các điều khoản bảo lãnh ngân hàng và tiến độ thanh toán theo luật."
+    },
+    {
+      "id": "concept:bao_lanh_trong_ban_nha_o_hinh_thanh_trong_tuong_lai",
+      "name_vi": "Bảo lãnh nghĩa vụ tài chính của chủ đầu tư",
+      "aliases": [
+        "Bảo lãnh ngân hàng bán nhà ở tương lai",
+        "Chứng thư bảo lãnh BĐS"
+      ],
+      "domain": "KDBDS",
+      "description": "Cam kết bảo lãnh bằng văn bản của ngân hàng thương mại bảo đảm cho nghĩa vụ bàn giao nhà ở của chủ đầu tư cho khách hàng."
+    },
+    {
+      "id": "concept:chuyen_nhuong_du_an_bat_dong_san",
+      "name_vi": "Chuyển nhượng toàn bộ hoặc một phần dự án bất động sản",
+      "aliases": [
+        "Chuyển nhượng dự án BĐS",
+        "M&A dự án BĐS"
+      ],
+      "domain": "KDBDS",
+      "description": "Việc chủ đầu tư chuyển giao toàn bộ hoặc một phần dự án bất động sản cùng quyền và nghĩa vụ cho chủ đầu tư khác khi đáp ứng đủ điều kiện luật định."
+    },
+    {
+      "id": "concept:san_giao_dich_bat_dong_san",
+      "name_vi": "Sàn giao dịch bất động sản",
+      "aliases": [
+        "Sàn BĐS"
+      ],
+      "domain": "KDBDS",
+      "description": "Nơi diễn ra các giao dịch mua bán, chuyển nhượng, cho thuê, cho thuê mua bất động sản và cung cấp các dịch vụ cho kinh doanh bất động sản."
+    },
+    {
+      "id": "concept:moi_gioi_bat_dong_san",
+      "name_vi": "Môi giới bất động sản",
+      "aliases": [
+        "Dịch vụ môi giới BĐS",
+        "Cò đất"
+      ],
+      "domain": "KDBDS",
+      "description": "Hoạt động làm trung gian cho các bên mua bán, chuyển nhượng, cho thuê, cho thuê mua bất động sản để hưởng thù lao, hoa hồng."
+    },
+    {
+      "id": "concept:tien_dat_coc_mua_ban_bds",
+      "name_vi": "Tiền đặt cọc trong kinh doanh bất động sản",
+      "aliases": [
+        "Đặt cọc mua nhà",
+        "Tiền cọc"
+      ],
+      "domain": "KDBDS",
+      "description": "Khoản tiền bên mua giao cho chủ đầu tư để bảo đảm giao kết hợp đồng, luật định không được thu quá 5% giá bán nhà ở hình thành trong tương lai."
+    },
+    {
+      "id": "concept:du_an_dau_tu",
+      "name_vi": "Dự án đầu tư",
+      "aliases": [
+        "Dự án"
+      ],
+      "domain": "DauTu",
+      "description": "Tập hợp đề xuất bỏ vốn trung hạn hoặc dài hạn để tiến hành các hoạt động đầu tư kinh doanh trên địa bàn cụ thể, trong khoảng thời gian xác định."
+    },
+    {
+      "id": "concept:du_an_dau_tu_xay_dung_khu_do_thi",
+      "name_vi": "Dự án đầu tư xây dựng khu đô thị",
+      "aliases": [
+        "Dự án khu đô thị",
+        "Khu đô thị mới"
+      ],
+      "domain": "DauTu",
+      "description": "Dự án đầu tư xây dựng có công năng phục vụ hỗn hợp, đồng bộ hệ thống hạ tầng kỹ thuật, hạ tầng xã hội với nhà ở hoặc công trình xây dựng khác."
+    },
+    {
+      "id": "concept:du_an_dau_tu_xay_dung_nha_o",
+      "name_vi": "Dự án đầu tư xây dựng nhà ở",
+      "aliases": [
+        "Dự án nhà ở"
+      ],
+      "domain": "DauTu",
+      "description": "Dự án đầu tư xây dựng công trình nhà ở, hệ thống hạ tầng kỹ thuật, hạ tầng xã hội phục vụ nhà ở."
+    },
+    {
+      "id": "concept:chap_thuan_chu_truong_dau_tu",
+      "name_vi": "Chấp thuận chủ trương đầu tư",
+      "aliases": [
+        "Phê duyệt chủ trương đầu tư",
+        "Quyết định chủ trương đầu tư"
+      ],
+      "domain": "DauTu",
+      "description": "Văn bản chấp thuận của cơ quan nhà nước có thẩm quyền về mục tiêu, địa điểm, quy mô, tiến độ, thời hạn thực hiện dự án."
+    },
+    {
+      "id": "concept:chap_thuan_nha_dau_tu",
+      "name_vi": "Chấp thuận nhà đầu tư",
+      "aliases": [
+        "Chỉ định nhà đầu tư"
+      ],
+      "domain": "DauTu",
+      "description": "Văn bản của cơ quan nhà nước có thẩm quyền chấp thuận nhà đầu tư thực hiện dự án đầu tư theo quy định của Luật Đầu tư."
+    },
+    {
+      "id": "concept:dau_gia_quyen_su_dung_dat",
+      "name_vi": "Đấu giá quyền sử dụng đất",
+      "aliases": [
+        "Đấu giá đất",
+        "Đấu giá QSDĐ"
+      ],
+      "domain": "DatDai",
+      "description": "Phương thức giao đất, cho thuê đất công khai, minh bạch theo nguyên tắc trả giá cao nhất theo quy định của pháp luật về đấu giá tài sản."
+    },
+    {
+      "id": "concept:dau_thau_lua_chon_nha_dau_tu",
+      "name_vi": "Đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất",
+      "aliases": [
+        "Đấu thầu dự án có sử dụng đất",
+        "Đấu thầu lựa chọn nhà đầu tư"
+      ],
+      "domain": "DauTu",
+      "description": "Phương thức lựa chọn nhà đầu tư đáp ứng tốt nhất các yêu cầu về năng lực, kinh nghiệm, phương án đầu tư và hiệu quả sử dụng đất."
+    },
+    {
+      "id": "concept:chuyen_nhuong_du_an_dau_tu",
+      "name_vi": "Chuyển nhượng dự án đầu tư",
+      "aliases": [
+        "Chuyển nhượng dự án theo Luật Đầu tư"
+      ],
+      "domain": "DauTu",
+      "description": "Nhà đầu tư chuyển giao toàn bộ hoặc một phần dự án đầu tư cho nhà đầu tư khác theo quy định của pháp luật về đầu tư."
+    }
+  ],
+  "legal_subjects": [
+    {
+      "id": "subject:nguoi_su_dung_dat",
+      "name_vi": "Người sử dụng đất",
+      "subject_type": "Chủ thể quyền",
+      "description": "Cá nhân, tổ chức, hộ gia đình, cộng đồng dân cư được Nhà nước giao đất, cho thuê đất, công nhận quyền sử dụng đất.",
+      "aliases": [
+        "người sử dụng đất",
+        "người sd đất",
+        "hộ gia đình cá nhân sử dụng đất",
+        "chủ sử dụng đất"
+      ]
+    },
+    {
+      "id": "subject:chu_dau_tu_du_an_bds",
+      "name_vi": "Chủ đầu tư dự án bất động sản",
+      "subject_type": "Doanh nghiệp",
+      "description": "Doanh nghiệp sở hữu vốn hoặc được giao quản lý vốn để thực hiện dự án đầu tư bất động sản.",
+      "aliases": [
+        "chủ đầu tư",
+        "chủ đầu tư dự án",
+        "chủ đầu tư dự án bất động sản",
+        "cđt"
+      ]
+    },
+    {
+      "id": "subject:nha_dau_tu",
+      "name_vi": "Nhà đầu tư",
+      "subject_type": "Cá nhân hoặc Doanh nghiệp",
+      "description": "Tổ chức, cá nhân thực hiện hoạt động đầu tư kinh doanh, bao gồm nhà đầu tư trong nước và nhà đầu tư nước ngoài.",
+      "aliases": [
+        "nhà đầu tư",
+        "nhà đầu tư dự án",
+        "nhà đầu tư thực hiện dự án"
+      ]
+    },
+    {
+      "id": "subject:nha_dau_tu_nuoc_ngoai",
+      "name_vi": "Nhà đầu tư nước ngoài",
+      "subject_type": "Chủ thể nước ngoài",
+      "description": "Cá nhân có quốc tịch nước ngoài, tổ chức thành lập theo pháp luật nước ngoài thực hiện hoạt động đầu tư kinh doanh tại Việt Nam.",
+      "aliases": [
+        "nhà đầu tư nước ngoài",
+        "nhà đầu tư có vốn nước ngoài"
+      ]
+    },
+    {
+      "id": "subject:to_chuc_kinh_te",
+      "name_vi": "Tổ chức kinh tế",
+      "subject_type": "Pháp nhân kinh tế",
+      "description": "Doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã và tổ chức kinh tế khác được thành lập theo quy định của pháp luật Việt Nam.",
+      "aliases": [
+        "tổ chức kinh tế",
+        "doanh nghiệp",
+        "tổ chức kinh tế trong nước"
+      ]
+    },
+    {
+      "id": "subject:doanh_nghiep_kinh_doanh_bds",
+      "name_vi": "Doanh nghiệp kinh doanh bất động sản",
+      "subject_type": "Doanh nghiệp",
+      "description": "Doanh nghiệp được thành lập hợp pháp theo pháp luật doanh nghiệp và đáp ứng các điều kiện kinh doanh BĐS.",
+      "aliases": [
+        "doanh nghiệp kinh doanh bất động sản",
+        "doanh nghiệp bất động sản",
+        "doanh nghiệp bđs"
+      ]
+    },
+    {
+      "id": "subject:ca_nhan_kinh_doanh_bds_quy_mo_nho",
+      "name_vi": "Cá nhân kinh doanh bất động sản quy mô nhỏ",
+      "subject_type": "Cá nhân",
+      "description": "Cá nhân bán, cho thuê, cho thuê mua bất động sản thuộc quyền sở hữu của mình không cần thành lập doanh nghiệp.",
+      "aliases": [
+        "cá nhân kinh doanh bất động sản quy mô nhỏ",
+        "kinh doanh bđs quy mô nhỏ"
+      ]
+    },
+    {
+      "id": "subject:ben_mua_nha",
+      "name_vi": "Bên mua, thuê mua nhà ở, công trình xây dựng",
+      "subject_type": "Khách hàng",
+      "description": "Cá nhân, tổ chức nhận chuyển nhượng, mua hoặc thuê mua bất động sản từ chủ đầu tư hoặc bên chuyển nhượng.",
+      "aliases": [
+        "bên mua",
+        "bên mua nhà",
+        "bên mua nhà ở",
+        "bên thuê mua",
+        "bên thuê mua nhà ở",
+        "khách hàng mua nhà"
+      ]
+    },
+    {
+      "id": "subject:ben_ban_nha",
+      "name_vi": "Bên bán, chuyển nhượng bất động sản",
+      "subject_type": "Bên chuyển nhượng",
+      "description": "Chủ sở hữu bất động sản hoặc chủ đầu tư thực hiện giao dịch chuyển nhượng, bán cho bên mua.",
+      "aliases": [
+        "bên bán",
+        "bên bán nhà",
+        "bên bán nhà ở",
+        "bên chuyển nhượng",
+        "bên cho thuê mua"
+      ]
+    },
+    {
+      "id": "subject:doi_tuong_huong_chinh_sach_noxh",
+      "name_vi": "Đối tượng được hưởng chính sách nhà ở xã hội",
+      "subject_type": "Cá nhân thu nhập thấp",
+      "description": "Người có công với cách mạng, hộ nghèo, công nhân khu công nghiệp, cán bộ công chức... đáp ứng điều kiện về nhà ở và thu nhập.",
+      "aliases": [
+        "đối tượng hưởng chính sách nhà ở xã hội",
+        "đối tượng mua noxh",
+        "người mua nhà ở xã hội",
+        "đối tượng chính sách noxh"
+      ]
+    },
+    {
+      "id": "subject:nguoi_goc_viet_nam_dinh_cu_o_nuoc_ngoai",
+      "name_vi": "Người gốc Việt Nam định cư ở nước ngoài",
+      "subject_type": "Việt kiều",
+      "description": "Người Việt Nam định cư ở nước ngoài được phép nhập cảnh vào Việt Nam và có quyền sở hữu nhà ở, QSDĐ như công dân trong nước theo Luật mới.",
+      "aliases": [
+        "người gốc việt nam định cư ở nước ngoài",
+        "việt kiều",
+        "người việt nam định cư ở nước ngoài"
+      ]
+    },
+    {
+      "id": "subject:to_chuc_tin_dung_bao_lanh",
+      "name_vi": "Ngân hàng thương mại bảo lãnh",
+      "subject_type": "Tổ chức tín dụng",
+      "description": "Tổ chức tín dụng đủ năng lực thực hiện nghiệp vụ phát hành cam kết bảo lãnh nghĩa vụ tài chính của chủ đầu tư dự án BĐS.",
+      "aliases": [
+        "ngân hàng thương mại",
+        "ngân hàng bảo lãnh",
+        "tổ chức tín dụng",
+        "ngân hàng thương mại bảo lãnh"
+      ]
+    },
+    {
+      "id": "subject:to_chuc_hanh_nghe_cong_chung",
+      "name_vi": "Tổ chức hành nghề công chứng",
+      "subject_type": "Cơ quan bổ trợ tư pháp",
+      "description": "Phòng công chứng hoặc Văn phòng công chứng thực hiện việc chứng nhận tính xác thực, hợp pháp của hợp đồng giao dịch bất động sản.",
+      "aliases": [
+        "tổ chức hành nghề công chứng",
+        "phòng công chứng",
+        "văn phòng công chứng",
+        "công chứng viên"
+      ]
+    },
+    {
+      "id": "subject:ban_quan_tri_nha_chung_cu",
+      "name_vi": "Ban quản trị nhà chung cư",
+      "subject_type": "Tổ chức tự quản",
+      "description": "Tổ chức có tư cách pháp nhân đại diện cho các chủ sở hữu để quản lý, vận hành và sử dụng nhà chung cư.",
+      "aliases": [
+        "ban quản trị nhà chung cư",
+        "ban quản trị chung cư",
+        "bqt nhà chung cư",
+        "ban quản trị"
+      ]
+    },
+    {
+      "id": "subject:quoc_hoi",
+      "name_vi": "Quốc hội",
+      "subject_type": "Cơ quan lập pháp tối cao",
+      "description": "Cơ quan có thẩm quyền ban hành Luật và quyết định chủ trương đầu tư các dự án trọng điểm quốc gia.",
+      "aliases": [
+        "quốc hội"
+      ]
+    },
+    {
+      "id": "subject:chinh_phu",
+      "name_vi": "Chính phủ",
+      "subject_type": "Cơ quan hành chính nhà nước cao nhất",
+      "description": "Cơ quan ban hành các Nghị định hướng dẫn chi tiết thi hành Luật Đất đai, Nhà ở, KDBĐS, Đầu tư.",
+      "aliases": [
+        "chính phủ"
+      ]
+    },
+    {
+      "id": "subject:thu_tuong_chinh_phu",
+      "name_vi": "Thủ tướng Chính phủ",
+      "subject_type": "Người đứng đầu Chính phủ",
+      "description": "Thẩm quyền chấp thuận chủ trương đầu tư các dự án quy mô lớn, khu công nghiệp, cảng hàng không, dự án chuyển nhượng đặc thù.",
+      "aliases": [
+        "thủ tướng chính phủ",
+        "thủ tướng"
+      ]
+    },
+    {
+      "id": "subject:bo_xay_dung",
+      "name_vi": "Bộ Xây dựng",
+      "subject_type": "Bộ quản lý ngành",
+      "description": "Cơ quan quản lý nhà nước về nhà ở, thị trường bất động sản, quy hoạch đô thị và hoạt động xây dựng.",
+      "aliases": [
+        "bộ xây dựng",
+        "bxd"
+      ]
+    },
+    {
+      "id": "subject:bo_tai_nguyen_va_moi_truong",
+      "name_vi": "Bộ Tài nguyên và Môi trường",
+      "subject_type": "Bộ quản lý ngành",
+      "description": "Cơ quan quản lý nhà nước về đất đai, đo đạc địa chính, cấp Giấy chứng nhận và định giá đất.",
+      "aliases": [
+        "bộ tài nguyên và môi trường",
+        "bộ tn&mt",
+        "btnmt"
+      ]
+    },
+    {
+      "id": "subject:ubnd_cap_tinh",
+      "name_vi": "Ủy ban nhân dân cấp tỉnh",
+      "subject_type": "Chính quyền địa phương",
+      "description": "Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư dự án nhà ở, giao đất, cho thuê đất cho tổ chức, ban hành Bảng giá đất.",
+      "aliases": [
+        "ủy ban nhân dân cấp tỉnh",
+        "ubnd cấp tỉnh",
+        "ubnd tỉnh",
+        "ubnd thành phố trực thuộc trung ương",
+        "chủ tịch ubnd cấp tỉnh"
+      ]
+    },
+    {
+      "id": "subject:so_xay_dung",
+      "name_vi": "Sở Xây dựng",
+      "subject_type": "Cơ quan chuyên môn cấp tỉnh",
+      "description": "Cơ quan thẩm định thiết kế, kiểm tra nghiệm thu công trình, cấp văn bản đủ điều kiện bán nhà ở hình thành trong tương lai.",
+      "aliases": [
+        "sở xây dựng",
+        "sxd"
+      ]
+    },
+    {
+      "id": "subject:so_tai_nguyen_va_moi_truong",
+      "name_vi": "Sở Tài nguyên và Môi trường",
+      "subject_type": "Cơ quan chuyên môn cấp tỉnh",
+      "description": "Cơ quan tham mưu giao đất, cho thuê đất, cấp Giấy chứng nhận cho tổ chức, xác định giá đất cụ thể.",
+      "aliases": [
+        "sở tài nguyên và môi trường",
+        "sở tn&mt",
+        "stnmt"
+      ]
+    },
+    {
+      "id": "subject:van_phong_dang_ky_dat_dai",
+      "name_vi": "Văn phòng đăng ký đất đai",
+      "subject_type": "Đơn vị dịch vụ công",
+      "description": "Cơ quan thực hiện thủ tục đăng ký đất đai, đăng ký biến động, cập nhật hồ sơ địa chính và cấp Giấy chứng nhận.",
+      "aliases": [
+        "văn phòng đăng ký đất đai",
+        "vpđkđđ",
+        "văn phòng đăng ký quyền sử dụng đất"
+      ]
+    }
+  ],
+  "legal_conditions": [
+    {
+      "id": "cond:co_giay_chung_nhan_qsd_dat",
+      "name_vi": "Có Giấy chứng nhận quyền sử dụng đất",
+      "condition_type": "Tiên quyết",
+      "description": "Thửa đất hoặc bất động sản đã được cấp Sổ đỏ/Sổ hồng hợp pháp chứng minh quyền sử dụng/sở hữu.",
+      "aliases": [
+        "có giấy chứng nhận",
+        "có giấy chứng nhận quyền sử dụng đất",
+        "có sổ đỏ",
+        "có sổ hồng",
+        "đã được cấp giấy chứng nhận"
+      ]
+    },
+    {
+      "id": "cond:dat_khong_co_tranh_chap",
+      "name_vi": "Đất không có tranh chấp",
+      "condition_type": "Bắt buộc",
+      "description": "Thửa đất không đang là đối tượng thụ lý giải quyết tranh chấp tại Tòa án hoặc cơ quan hành chính có thẩm quyền.",
+      "aliases": [
+        "đất không có tranh chấp",
+        "không có tranh chấp",
+        "không tranh chấp",
+        "không có khiếu nại, tranh chấp"
+      ]
+    },
+    {
+      "id": "cond:quyen_su_dung_dat_khong_bi_ke_bien",
+      "name_vi": "Quyền sử dụng đất không bị kê biên để bảo đảm thi hành án",
+      "condition_type": "Bắt buộc",
+      "description": "Quyền sử dụng đất không bị cơ quan thi hành án dân sự áp dụng quyết định kê biên tài sản.",
+      "aliases": [
+        "không bị kê biên",
+        "quyền sử dụng đất không bị kê biên",
+        "không bị kê biên để bảo đảm thi hành án",
+        "không bị kê biên tài sản"
+      ]
+    },
+    {
+      "id": "cond:trong_thoi_han_su_dung_dat",
+      "name_vi": "Trong thời hạn sử dụng đất",
+      "condition_type": "Bắt buộc",
+      "description": "Giao dịch phải được thực hiện trong thời hạn sử dụng đất còn lại được ghi trên Giấy chứng nhận.",
+      "aliases": [
+        "trong thời hạn sử dụng đất",
+        "còn thời hạn sử dụng đất",
+        "đất còn hạn sử dụng"
+      ]
+    },
+    {
+      "id": "cond:quyen_su_dung_dat_khong_bi_ap_dung_bien_phap_khan_cap",
+      "name_vi": "Không bị áp dụng biện pháp khẩn cấp tạm thời",
+      "condition_type": "Bắt buộc",
+      "description": "Thửa đất không bị Tòa án áp dụng biện pháp phong tỏa, cấm chuyển dịch quyền sở hữu.",
+      "aliases": [
+        "không bị áp dụng biện pháp khẩn cấp tạm thời",
+        "không bị phong tỏa",
+        "không bị áp dụng biện pháp ngăn chặn"
+      ]
+    },
+    {
+      "id": "cond:hoan_thanh_nghia_vu_tai_chinh_ve_dat",
+      "name_vi": "Đã hoàn thành nghĩa vụ tài chính về đất đai",
+      "condition_type": "Tiên quyết",
+      "description": "Người sử dụng đất hoặc chủ đầu tư đã nộp đủ tiền sử dụng đất, tiền thuê đất, lệ phí trước bạ theo thông báo của cơ quan thuế.",
+      "aliases": [
+        "hoàn thành nghĩa vụ tài chính về đất đai",
+        "nộp đủ tiền sử dụng đất",
+        "hoàn thành nộp tiền thuê đất",
+        "đã nộp tiền sử dụng đất"
+      ]
+    },
+    {
+      "id": "cond:co_giay_phep_xay_dung",
+      "name_vi": "Có Giấy phép xây dựng",
+      "condition_type": "Tiên quyết",
+      "description": "Dự án hoặc công trình xây dựng đã được cơ quan quản lý xây dựng cấp phép xây dựng hợp lệ.",
+      "aliases": [
+        "có giấy phép xây dựng",
+        "gpxd",
+        "được cấp giấy phép xây dựng",
+        "giấy phép xây dựng hợp lệ"
+      ]
+    },
+    {
+      "id": "cond:co_ho_so_thiet_ke_ban_ve_thi_cong",
+      "name_vi": "Có hồ sơ thiết kế bản vẽ thi công đã được phê duyệt",
+      "condition_type": "Bắt buộc",
+      "description": "Bản vẽ thi công của dự án đã được cơ quan chuyên môn về xây dựng thẩm định và chủ đầu tư phê duyệt.",
+      "aliases": [
+        "có hồ sơ thiết kế bản vẽ thi công",
+        "bản vẽ thi công đã được phê duyệt",
+        "thiết kế bản vẽ thi công"
+      ]
+    },
+    {
+      "id": "cond:nghiem_thu_hoan_thanh_xay_dung_mong",
+      "name_vi": "Đã nghiệm thu hoàn thành xây dựng phần móng",
+      "condition_type": "Định lượng/Tiên quyết",
+      "description": "Điều kiện bắt buộc đối với chung cư: có biên bản nghiệm thu hoàn thành xây dựng phần móng của tòa nhà.",
+      "aliases": [
+        "nghiệm thu hoàn thành xây dựng phần móng",
+        "nghiệm thu móng",
+        "xong phần móng",
+        "hoàn thành phần móng"
+      ]
+    },
+    {
+      "id": "cond:thong_bao_du_dieu_kien_ban_cua_so_xay_dung",
+      "name_vi": "Có văn bản thông báo đủ điều kiện bán của Sở Xây dựng",
+      "condition_type": "Tiên quyết",
+      "description": "Sở Xây dựng đã ban hành văn bản xác nhận nhà ở hình thành trong tương lai đủ điều kiện được bán, cho thuê mua.",
+      "aliases": [
+        "thông báo đủ điều kiện bán",
+        "văn bản đủ điều kiện bán nhà ở hình thành trong tương lai",
+        "sở xây dựng thông báo đủ điều kiện được bán"
+      ]
+    },
+    {
+      "id": "cond:bao_lanh_ngan_hang_nghia_vu_tai_chinh",
+      "name_vi": "Được ngân hàng cấp bảo lãnh nghĩa vụ tài chính",
+      "condition_type": "Bắt buộc",
+      "description": "Chủ đầu tư đã ký kết hợp đồng bảo lãnh với ngân hàng thương mại để bảo lãnh việc bàn giao nhà cho khách hàng.",
+      "aliases": [
+        "bảo lãnh ngân hàng",
+        "bảo lãnh nghĩa vụ tài chính",
+        "cam kết bảo lãnh",
+        "hợp đồng bảo lãnh"
+      ]
+    },
+    {
+      "id": "cond:von_chu_so_huu_toi_thieu_20_phan_tram",
+      "name_vi": "Vốn chủ sở hữu không thấp hơn 20% tổng vốn đầu tư (Dự án < 20ha)",
+      "condition_type": "Định lượng",
+      "description": "Chủ đầu tư dự án quy mô dưới 20 ha phải duy trì tỷ lệ vốn tự có tối thiểu 20% tổng mức đầu tư.",
+      "aliases": [
+        "vốn chủ sở hữu không thấp hơn 20%",
+        "vốn chủ sở hữu tối thiểu 20%",
+        "vốn tự có 20%"
+      ]
+    },
+    {
+      "id": "cond:von_chu_so_huu_toi_thieu_15_phan_tram",
+      "name_vi": "Vốn chủ sở hữu không thấp hơn 15% tổng vốn đầu tư (Dự án ≥ 20ha)",
+      "condition_type": "Định lượng",
+      "description": "Chủ đầu tư dự án quy mô từ 20 ha trở lên phải duy trì tỷ lệ vốn tự có tối thiểu 15% tổng mức đầu tư.",
+      "aliases": [
+        "vốn chủ sở hữu không thấp hơn 15%",
+        "vốn chủ sở hữu tối thiểu 15%",
+        "vốn tự có 15%"
+      ]
+    },
+    {
+      "id": "cond:thanh_toan_lan_dau_khong_qua_30_phan_tram",
+      "name_vi": "Thu tiền đặt cọc/thanh toán lần đầu không quá 30% giá trị hợp đồng",
+      "condition_type": "Định lượng",
+      "description": "Thanh toán lần đầu trong mua bán nhà ở tương lai không được vượt quá 30% giá trị hợp đồng.",
+      "aliases": [
+        "thanh toán lần đầu không quá 30%",
+        "thu tiền lần đầu không quá 30%",
+        "thanh toán đợt 1 không quá 30%"
+      ]
+    },
+    {
+      "id": "cond:thanh_toan_truoc_ban_giao_khong_qua_70_phan_tram",
+      "name_vi": "Tổng số tiền thu trước khi bàn giao nhà không quá 70% giá trị hợp đồng",
+      "condition_type": "Định lượng",
+      "description": "Trước khi nhận bàn giao nhà, tổng số tiền thu của khách hàng không được vượt quá 70% giá trị hợp đồng (hoặc 50% nếu bên bán là DN vốn FDI).",
+      "aliases": [
+        "thanh toán trước bàn giao không quá 70%",
+        "thu không quá 70% khi chưa bàn giao",
+        "thanh toán không quá 70%"
+      ]
+    },
+    {
+      "id": "cond:thanh_toan_truoc_khi_cap_so_khong_qua_95_phan_tram",
+      "name_vi": "Thu tiền trước khi cấp Giấy chứng nhận không quá 95% giá trị hợp đồng",
+      "condition_type": "Định lượng",
+      "description": "Bên mua chưa được cấp Giấy chứng nhận thì bên bán không được thu quá 95% giá trị hợp đồng; 5% còn lại thanh toán khi nhận Sổ.",
+      "aliases": [
+        "thanh toán trước khi cấp sổ không quá 95%",
+        "thu tiền trước khi cấp gcn không quá 95%",
+        "giữ lại 5% trước khi có sổ"
+      ]
+    },
+    {
+      "id": "cond:chua_co_nha_o_thuoc_so_huu",
+      "name_vi": "Chưa có nhà ở thuộc sở hữu của mình để hưởng chính sách NOXH",
+      "condition_type": "Tiên quyết",
+      "description": "Người đăng ký mua NOXH chưa có nhà ở thuộc sở hữu của mình tại tỉnh/thành phố nơi có dự án.",
+      "aliases": [
+        "chưa có nhà ở",
+        "chưa có nhà ở thuộc sở hữu",
+        "chưa sở hữu nhà ở",
+        "chưa có nhà thuộc sở hữu của mình"
+      ]
+    },
+    {
+      "id": "cond:thu_nhap_thuoc_dien_khong_phai_nop_thue",
+      "name_vi": "Thu nhập thuộc diện không phải nộp thuế thu nhập cá nhân để mua NOXH",
+      "condition_type": "Tiên quyết",
+      "description": "Mức thu nhập hàng tháng của người mua NOXH đáp ứng tiêu chuẩn đối tượng thu nhập thấp theo quy định Chính phủ.",
+      "aliases": [
+        "thu nhập không phải nộp thuế",
+        "thu nhập thuộc diện không phải nộp thuế",
+        "thu nhập thấp",
+        "không phải nộp thuế tncn"
+      ]
+    },
+    {
+      "id": "cond:thoi_han_han_che_chuyen_nhuong_noxh_5_nam",
+      "name_vi": "Đã đủ thời hạn 05 năm kể từ ngày thanh toán hết tiền mua NOXH",
+      "condition_type": "Thời hiệu",
+      "description": "Người mua NOXH chỉ được phép bán lại nhà ở này ra thị trường tự do sau tối thiểu 05 năm kể từ ngày thanh toán hết tiền.",
+      "aliases": [
+        "hạn chế chuyển nhượng 5 năm",
+        "thời hạn 5 năm đối với noxh",
+        "không được bán lại trong 5 năm",
+        "đủ 5 năm kể từ ngày trả hết tiền"
+      ]
+    },
+    {
+      "id": "cond:du_an_khong_bi_dinh_chi_cham_dut",
+      "name_vi": "Dự án không bị đình chỉ, chấm dứt hoạt động",
+      "condition_type": "Bắt buộc",
+      "description": "Dự án BĐS hoặc dự án đầu tư vẫn đang có hiệu lực pháp lý, không bị cơ quan chức năng thu hồi giấy phép hoặc dừng triển khai.",
+      "aliases": [
+        "dự án không bị đình chỉ",
+        "không bị thu hồi dự án",
+        "không bị chấm dứt hoạt động đầu tư"
+      ]
+    },
+    {
+      "id": "cond:da_hoan_thanh_giai_phong_mat_bang",
+      "name_vi": "Khu đất đã hoàn thành công tác bồi thường, giải phóng mặt bằng",
+      "condition_type": "Tiên quyết",
+      "description": "Đất sạch, đã hoàn tất bồi thường tái định cư trước khi đưa ra đấu giá quyền sử dụng đất.",
+      "aliases": [
+        "hoàn thành giải phóng mặt bằng",
+        "đã hoàn thành bồi thường giải phóng mặt bằng",
+        "đất sạch",
+        "mặt bằng sạch"
+      ]
+    },
+    {
+      "id": "cond:phu_hop_quy_hoach_su_dung_dat",
+      "name_vi": "Phù hợp với quy hoạch sử dụng đất cấp huyện",
+      "condition_type": "Tiên quyết",
+      "description": "Địa điểm và mục đích của dự án đầu tư phải hoàn toàn phù hợp với quy hoạch sử dụng đất đã được cơ quan có thẩm quyền phê duyệt.",
+      "aliases": [
+        "phù hợp quy hoạch sử dụng đất",
+        "phù hợp với quy hoạch",
+        "đúng quy hoạch sử dụng đất"
+      ]
+    },
+    {
+      "id": "cond:phu_hop_quy_hoach_chi_tiet_1_500",
+      "name_vi": "Phù hợp với quy hoạch chi tiết xây dựng tỷ lệ 1/500",
+      "condition_type": "Bắt buộc",
+      "description": "Hồ sơ dự án bất động sản phải tuân thủ đúng các chỉ tiêu quy hoạch 1/500 đã được phê duyệt.",
+      "aliases": [
+        "phù hợp quy hoạch 1/500",
+        "quy hoạch chi tiết 1/500",
+        "đã được phê duyệt quy hoạch chi tiết 1/500"
+      ]
+    },
+    {
+      "id": "cond:hop_dong_phai_duoc_cong_chung_chung_thuc",
+      "name_vi": "Hợp đồng phải được công chứng hoặc chứng thực",
+      "condition_type": "Hình thức",
+      "description": "Hợp đồng chuyển nhượng, tặng cho, thế chấp QSDĐ, tài sản gắn liền với đất giữa các cá nhân bắt buộc phải công chứng hoặc chứng thực.",
+      "aliases": [
+        "phải được công chứng",
+        "hợp đồng phải công chứng",
+        "công chứng chứng thực hợp đồng"
+      ]
+    },
+    {
+      "id": "cond:dang_ky_bien_dong_trong_han_30_ngay",
+      "name_vi": "Thực hiện đăng ký biến động trong thời hạn 30 ngày",
+      "condition_type": "Thời hiệu",
+      "description": "Kể từ ngày hợp đồng chuyển nhượng có hiệu lực, các bên bắt buộc phải nộp hồ sơ đăng ký biến động trong vòng 30 ngày.",
+      "aliases": [
+        "đăng ký biến động trong thời hạn 30 ngày",
+        "đăng ký biến động trong 30 ngày",
+        "thời hạn đăng bộ 30 ngày"
+      ]
+    },
+    {
+      "id": "cond:nguoi_nuoc_ngoai_chi_duoc_so_huu_toi_da_30_phan_tram",
+      "name_vi": "Cá nhân nước ngoài chỉ được sở hữu tối đa 30% số căn hộ chung cư",
+      "condition_type": "Định lượng",
+      "description": "Tổng số căn hộ do các cá nhân nước ngoài sở hữu không được vượt quá 30% tổng số căn hộ của một tòa nhà chung cư.",
+      "aliases": [
+        "người nước ngoài sở hữu tối đa 30%",
+        "room ngoại 30% chung cư",
+        "tỷ lệ sở hữu của người nước ngoài không quá 30%"
+      ]
+    },
+    {
+      "id": "cond:chu_dau_tu_khong_trong_thoi_gian_bi_xu_ly_vi_pham",
+      "name_vi": "Chủ đầu tư không trong thời gian bị xử lý vi phạm pháp luật",
+      "condition_type": "Tư cách",
+      "description": "Chủ đầu tư dự án không đang trong thời gian chấp hành quyết định xử phạt vi phạm hành chính mà chưa hoàn thành khắc phục.",
+      "aliases": [
+        "chủ đầu tư không bị xử lý vi phạm",
+        "không trong thời gian bị cấm hoạt động",
+        "không vi phạm pháp luật xây dựng"
+      ]
+    },
+    {
+      "id": "cond:nha_o_khong_thuoc_dien_thu_hoi_giai_toa",
+      "name_vi": "Nhà ở không thuộc diện đã có quyết định thu hồi đất, giải tỏa",
+      "condition_type": "Bắt buộc",
+      "description": "Bất động sản tham gia giao dịch không nằm trong ranh giới thu hồi đất hoặc thông báo phá dỡ của chính quyền.",
+      "aliases": [
+        "nhà ở không thuộc diện thu hồi",
+        "không thuộc diện giải tỏa",
+        "không nằm trong diện thu hồi đất"
+      ]
+    },
+    {
+      "id": "cond:hoan_thanh_nghia_vu_ky_quy_dau_tu",
+      "name_vi": "Đã hoàn thành nghĩa vụ ký quỹ bảo đảm thực hiện dự án đầu tư",
+      "condition_type": "Tài chính",
+      "description": "Nhà đầu tư đã nộp tiền ký quỹ hoặc có chứng thư bảo lãnh ngân hàng về nghĩa vụ ký quỹ theo Luật Đầu tư.",
+      "aliases": [
+        "hoàn thành nghĩa vụ ký quỹ",
+        "đã nộp tiền ký quỹ bảo đảm thực hiện dự án",
+        "ký quỹ đầu tư"
+      ]
+    },
+    {
+      "id": "cond:tien_dat_coc_khong_qua_5_phan_tram",
+      "name_vi": "Tiền đặt cọc mua bán nhà ở tương lai không quá 5% giá bán",
+      "condition_type": "Định lượng",
+      "description": "Chủ đầu tư dự án chỉ được thu tiền đặt cọc không quá 5% giá bán, cho thuê mua nhà ở hình thành trong tương lai khi đã đủ điều kiện theo luật.",
+      "aliases": [
+        "đặt cọc không quá 5%",
+        "tiền đặt cọc không quá 5%",
+        "đặt cọc mua bán nhà không quá 5%"
+      ]
+    }
+  ],
+  "legal_procedures": [
+    {
+      "id": "proc:chuyen_nhuong_quyen_su_dung_dat",
+      "name_vi": "Thủ tục chuyển nhượng quyền sử dụng đất",
+      "authority": "Văn phòng đăng ký đất đai / Chi nhánh Văn phòng đăng ký đất đai",
+      "description": "Trình tự thực hiện công chứng hợp đồng, kê khai thuế, nộp hồ sơ đăng bộ và sang tên Giấy chứng nhận.",
+      "aliases": [
+        "thủ tục chuyển nhượng quyền sử dụng đất",
+        "thủ tục sang tên sổ đỏ",
+        "trình tự chuyển nhượng qsdđ",
+        "thủ tục mua bán đất"
+      ]
+    },
+    {
+      "id": "proc:cap_giay_chung_nhan_lan_dau",
+      "name_vi": "Thủ tục đăng ký đất đai, cấp Giấy chứng nhận lần đầu",
+      "authority": "UBND cấp huyện / Chi nhánh Văn phòng đăng ký đất đai",
+      "description": "Trình tự xác minh nguồn gốc đất, thẩm tra hồ sơ, đo đạc và ban hành quyết định cấp Sổ đỏ lần đầu cho người sử dụng đất.",
+      "aliases": [
+        "thủ tục cấp giấy chứng nhận lần đầu",
+        "cấp sổ đỏ lần đầu",
+        "đăng ký đất đai cấp gcn lần đầu",
+        "thủ tục cấp sổ hồng lần đầu"
+      ]
+    },
+    {
+      "id": "proc:cap_doi_cap_lai_giay_chung_nhan",
+      "name_vi": "Thủ tục cấp đổi, cấp lại Giấy chứng nhận",
+      "authority": "Văn phòng đăng ký đất đai",
+      "description": "Trình tự cấp đổi do phôi sổ cũ, rách nát, dồn thửa hoặc cấp lại do bị mất Giấy chứng nhận.",
+      "aliases": [
+        "thủ tục cấp đổi giấy chứng nhận",
+        "cấp lại giấy chứng nhận",
+        "thủ tục cấp lại sổ đỏ bị mất",
+        "đổi gcn"
+      ]
+    },
+    {
+      "id": "proc:dang_ky_bien_dong_dat_dai",
+      "name_vi": "Thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất",
+      "authority": "Văn phòng đăng ký đất đai",
+      "description": "Trình tự tiếp nhận hồ sơ, kiểm tra nghĩa vụ tài chính và xác nhận biến động vào trang 4 của Giấy chứng nhận.",
+      "aliases": [
+        "thủ tục đăng ký biến động đất đai",
+        "đăng bộ đất đai",
+        "thủ tục đăng ký biến động",
+        "đăng ký biến động qsdđ"
+      ]
+    },
+    {
+      "id": "proc:dang_ky_bien_phap_bao_dam_the_chap",
+      "name_vi": "Thủ tục đăng ký thế chấp quyền sử dụng đất, nhà ở",
+      "authority": "Văn phòng đăng ký đất đai",
+      "description": "Trình tự chứng nhận giao dịch bảo đảm bằng QSDĐ và tài sản gắn liền với đất vào cơ sở dữ liệu đất đai.",
+      "aliases": [
+        "thủ tục đăng ký thế chấp",
+        "đăng ký biện pháp bảo đảm",
+        "đăng ký thế chấp quyền sử dụng đất",
+        "xóa đăng ký thế chấp"
+      ]
+    },
+    {
+      "id": "proc:chuyen_muc_dich_su_dung_dat",
+      "name_vi": "Thủ tục cho phép chuyển mục đích sử dụng đất",
+      "authority": "UBND cấp tỉnh (đối với tổ chức) / UBND cấp huyện (đối với cá nhân)",
+      "description": "Trình tự thẩm định nhu cầu, kiểm tra quy hoạch và ban hành quyết định cho phép chuyển từ đất nông nghiệp sang đất ở/kinh doanh.",
+      "aliases": [
+        "thủ tục chuyển mục đích sử dụng đất",
+        "cho phép chuyển mục đích sử dụng đất",
+        "xin chuyển mục đích sử dụng đất sang đất ở"
+      ]
+    },
+    {
+      "id": "proc:giao_dat_cho_thue_dat_thong_qua_dau_gia",
+      "name_vi": "Thủ tục giao đất, cho thuê đất thông qua đấu giá quyền sử dụng đất",
+      "authority": "UBND cấp tỉnh / Trung tâm phát triển quỹ đất",
+      "description": "Quy trình lập phương án đấu giá, xác định giá khởi điểm, tổ chức phiên đấu giá và ban hành quyết định công nhận kết quả trúng đấu giá.",
+      "aliases": [
+        "thủ tục giao đất qua đấu giá",
+        "đấu giá quyền sử dụng đất",
+        "thủ tục cho thuê đất thông qua đấu giá"
+      ]
+    },
+    {
+      "id": "proc:dau_thau_lua_chon_nha_dau_tu_du_an_co_su_dung_dat",
+      "name_vi": "Thủ tục đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất",
+      "authority": "UBND cấp tỉnh / Sở Kế hoạch và Đầu tư",
+      "description": "Quy trình công bố danh mục dự án, phát hành hồ sơ mời thầu, đánh giá hồ sơ dự thầu và phê duyệt kết quả lựa chọn nhà đầu tư.",
+      "aliases": [
+        "đấu thầu lựa chọn nhà đầu tư",
+        "thủ tục đấu thầu dự án có sử dụng đất",
+        "đấu thầu dự án bđs"
+      ]
+    },
+    {
+      "id": "proc:thu_hoi_dat_vi_loi_ich_quoc_gia_cong_cong",
+      "name_vi": "Trình tự, thủ tục thu hồi đất vì mục đích phát triển kinh tế - xã hội",
+      "authority": "UBND cấp tỉnh / UBND cấp huyện",
+      "description": "Thông báo thu hồi đất, kiểm đếm, lập và phê duyệt phương án bồi thường, bố trí tái định cư và ban hành quyết định thu hồi đất.",
+      "aliases": [
+        "trình tự thu hồi đất",
+        "thủ tục thu hồi đất",
+        "thu hồi đất vì mục đích quốc phòng an ninh",
+        "thu hồi đất phát triển kt-xh"
+      ]
+    },
+    {
+      "id": "proc:chap_thuan_chu_truong_dau_tu_ubnd_tinh",
+      "name_vi": "Thủ tục chấp thuận chủ trương đầu tư của Ủy ban nhân dân cấp tỉnh",
+      "authority": "Ủy ban nhân dân cấp tỉnh",
+      "description": "Quy trình nộp hồ sơ tại Sở KH&ĐT, lấy ý kiến các sở ngành liên quan và trình UBND tỉnh ra quyết định chấp thuận chủ trương đầu tư dự án nhà ở/khu đô thị.",
+      "aliases": [
+        "thủ tục chấp thuận chủ trương đầu tư của ubnd tỉnh",
+        "ubnd tỉnh chấp thuận chủ trương đầu tư",
+        "chấp thuận chủ trương đầu tư cấp tỉnh"
+      ]
+    },
+    {
+      "id": "proc:chap_thuan_chu_truong_dau_tu_thu_tuong",
+      "name_vi": "Thủ tục chấp thuận chủ trương đầu tư của Thủ tướng Chính phủ",
+      "authority": "Thủ tướng Chính phủ / Bộ Kế hoạch và Đầu tư",
+      "description": "Trình tự thẩm định cấp trung ương đối với các dự án khu đô thị quy mô lớn từ 300 ha hoặc dân số từ 50.000 người trở lên.",
+      "aliases": [
+        "thủ tục chấp thuận chủ trương đầu tư của thủ tướng",
+        "thủ tướng chấp thuận chủ trương đầu tư"
+      ]
+    },
+    {
+      "id": "proc:dieu_chinh_du_an_dau_tu",
+      "name_vi": "Thủ tục điều chỉnh dự án đầu tư",
+      "authority": "Cơ quan đăng ký đầu tư (Sở Kế hoạch và Đầu tư / Ban Quản lý KCN)",
+      "description": "Trình tự xem xét điều chỉnh mục tiêu, vốn đầu tư, địa điểm, diện tích đất sử dụng hoặc tiến độ thực hiện dự án.",
+      "aliases": [
+        "thủ tục điều chỉnh dự án đầu tư",
+        "điều chỉnh giấy chứng nhận đăng ký đầu tư",
+        "điều chỉnh tiến độ dự án"
+      ]
+    },
+    {
+      "id": "proc:chuyen_nhuong_du_an_dau_tu",
+      "name_vi": "Thủ tục chuyển nhượng dự án đầu tư",
+      "authority": "Cơ quan đăng ký đầu tư / UBND cấp tỉnh",
+      "description": "Trình tự thẩm định điều kiện chuyển nhượng dự án giữa các nhà đầu tư theo quy định của Luật Đầu tư.",
+      "aliases": [
+        "thủ tục chuyển nhượng dự án đầu tư",
+        "chuyển nhượng dự án"
+      ]
+    },
+    {
+      "id": "proc:chuyen_nhuong_toan_bo_hoac_mot_phan_du_an_bds",
+      "name_vi": "Thủ tục chuyển nhượng toàn bộ hoặc một phần dự án bất động sản",
+      "authority": "UBND cấp tỉnh / Thủ tướng Chính phủ",
+      "description": "Quy trình thẩm định hồ sơ chuyển nhượng dự án BĐS theo Luật Kinh doanh BĐS, lấy ý kiến liên ngành và phê duyệt quyết định chuyển nhượng.",
+      "aliases": [
+        "thủ tục chuyển nhượng dự án bất động sản",
+        "chuyển nhượng toàn bộ hoặc một phần dự án bđs",
+        "chuyển nhượng dự án nhà ở"
+      ]
+    },
+    {
+      "id": "proc:thong_bao_nha_o_du_dieu_kien_duoc_ban",
+      "name_vi": "Thủ tục thông báo nhà ở hình thành trong tương lai đủ điều kiện được bán",
+      "authority": "Sở Xây dựng",
+      "description": "Trình tự kiểm tra thực địa, hồ sơ pháp lý móng và phát hành văn bản xác nhận dự án đủ điều kiện đưa vào kinh doanh.",
+      "aliases": [
+        "thông báo đủ điều kiện bán nhà ở tương lai",
+        "thủ tục thông báo nhà ở đủ điều kiện bán",
+        "xin giấy phép bán nhà trên giấy"
+      ]
+    },
+    {
+      "id": "proc:bao_lanh_nghia_vu_tai_chinh_ban_nha_tuong_lai",
+      "name_vi": "Thủ tục cấp bảo lãnh trong bán nhà ở hình thành trong tương lai",
+      "authority": "Ngân hàng thương mại",
+      "description": "Quy trình thẩm định năng lực tài chính chủ đầu tư và phát hành thư bảo lãnh hoàn trả tiền cho bên mua nhà.",
+      "aliases": [
+        "thủ tục bảo lãnh bán nhà ở tương lai",
+        "cấp bảo lãnh nghĩa vụ tài chính",
+        "bảo lãnh nhà ở hình thành trong tương lai"
+      ]
+    },
+    {
+      "id": "proc:xet_duyet_doi_tuong_mua_thue_mua_noxh",
+      "name_vi": "Thủ tục xét duyệt hồ sơ mua, thuê mua nhà ở xã hội",
+      "authority": "Chủ đầu tư dự án NOXH / Sở Xây dựng",
+      "description": "Quy trình thu nhận hồ sơ đăng ký, chấm điểm theo tiêu chí ưu tiên và gửi danh sách đến Sở Xây dựng để kiểm tra trùng lặp đối tượng.",
+      "aliases": [
+        "thủ tục xét duyệt mua noxh",
+        "xét duyệt hồ sơ thuê mua nhà ở xã hội",
+        "chấm điểm hồ sơ mua nhà ở xã hội"
+      ]
+    },
+    {
+      "id": "proc:cong_chung_hop_dong_giao_dich_bds",
+      "name_vi": "Thủ tục công chứng hợp đồng mua bán, chuyển nhượng bất động sản",
+      "authority": "Tổ chức hành nghề công chứng",
+      "description": "Quy trình kiểm tra năng lực hành vi dân sự, tính hợp pháp của giấy tờ nhà đất và chứng nhận chữ ký của các bên trong hợp đồng.",
+      "aliases": [
+        "thủ tục công chứng hợp đồng mua bán nhà đất",
+        "công chứng hợp đồng bất động sản",
+        "công chứng hợp đồng chuyển nhượng"
+      ]
+    },
+    {
+      "id": "proc:xac_dinh_gia_dat_cu_the",
+      "name_vi": "Trình tự, thủ tục xác định và phê duyệt giá đất cụ thể",
+      "authority": "Hội đồng thẩm định giá đất cụ thể / UBND cấp tỉnh",
+      "description": "Trình tự thuê tổ chức tư vấn định giá đất, lập báo cáo thẩm định giá, Hội đồng thẩm định xem xét và UBND cấp tỉnh phê duyệt.",
+      "aliases": [
+        "trình tự xác định giá đất cụ thể",
+        "thủ tục định giá đất cụ thể",
+        "thẩm định giá đất"
+      ]
+    },
+    {
+      "id": "proc:thanh_lap_va_cong_nhan_ban_quan_tri_chung_cu",
+      "name_vi": "Thủ tục công nhận Ban quản trị nhà chung cư",
+      "authority": "Ủy ban nhân dân cấp xã / phường",
+      "description": "Trình tự tổ chức Hội nghị nhà chung cư, bầu Ban quản trị và nộp hồ sơ đề nghị UBND cấp xã ra quyết định công nhận BQT.",
+      "aliases": [
+        "thủ tục công nhận ban quản trị nhà chung cư",
+        "công nhận bqt chung cư",
+        "thành lập ban quản trị chung cư"
+      ]
+    }
+  ]
+}

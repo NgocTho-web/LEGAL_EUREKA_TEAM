@@ -1,0 +1,73 @@
+digraph Article188LocalKG {
+    rankdir=LR;
+    nodesep=0.6;
+    ranksep=1.5;
+    splines=true;
+    overlap=false;
+    concentrate=false;
+    bgcolor="#FFFFFF";
+    node [
+        shape=circle,
+        fixedsize=true,
+        width=1.1,
+        height=1.1,
+        style=filled,
+        fontname="Helvetica,Arial,sans-serif",
+        fontcolor="#FFFFFF",
+        fontsize=9,
+        penwidth=1.0,
+        margin="0.02,0.02"
+    ];
+    edge [
+        fontname="Helvetica,Arial,sans-serif",
+        fontsize=8,
+        color="#64748B",
+        fontcolor="#334155",
+        penwidth=1.2,
+        arrowsize=0.7
+    ];
+
+    "vn_law_2013_45_2013_qh13" [label="Luật Đất đai\n2013", fillcolor="#374151", color="#374151"];
+    "vn_law_2013_45_2013_qh13_chapter_11" [label="Chương XI", fillcolor="#4B5563", color="#4B5563"];
+    "vn_law_2013_45_2013_qh13_chapter_11_section_5" [label="Mục 5", fillcolor="#718096", color="#718096"];
+    "vn_law_2013_45_2013_qh13_article_188" [label="Điều 188", fillcolor="#9C4221", color="#9C4221"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_1" [label="Khoản 1", fillcolor="#975A16", color="#975A16"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_2" [label="Khoản 2", fillcolor="#975A16", color="#975A16"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_3" [label="Khoản 3", fillcolor="#975A16", color="#975A16"];
+    "cond_trong_thoi_han_su_dung_dat" [label="Trong thời hạn\nsử dụng đất", fillcolor="#2F855A", color="#2F855A"];
+    "cond_dat_khong_co_tranh_chap" [label="Đất không có\ntranh chấp", fillcolor="#2F855A", color="#2F855A"];
+    "proc_chuyen_nhuong_quyen_su_dung_dat" [label="Thủ tục chuyển\nnhượng quyền sử\ndụng đất", fillcolor="#97266D", color="#97266D"];
+    "concept_the_chap_quyen_su_dung_dat" [label="Thế chấp quyền\nsử dụng đất", fillcolor="#2B6CB0", color="#2B6CB0"];
+    "concept_gop_von_bang_quyen_su_dung_dat" [label="Góp vốn bằng\nquyền sử dụng đất", fillcolor="#2B6CB0", color="#2B6CB0"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" [label="Chuyển nhượng\nquyền sử dụng đất", fillcolor="#2B6CB0", color="#2B6CB0"];
+    "cond_co_giay_chung_nhan_qsd_dat" [label="Có Giấy chứng\nnhận quyền sử\ndụng đất", fillcolor="#2F855A", color="#2F855A"];
+    "cond_quyen_su_dung_dat_khong_bi_ke_bien" [label="Quyền sử dụng\nđất không bị kê\nbiên để bảo đảm\nthi hành án", fillcolor="#2F855A", color="#2F855A"];
+    "concept_tang_cho_quyen_su_dung_dat" [label="Tặng cho quyền\nsử dụng đất", fillcolor="#2B6CB0", color="#2B6CB0"];
+    "proc_dang_ky_bien_dong_dat_dai" [label="Thủ tục đăng ký\nbiến động đất\nđai, tài sản gắn\nliền với đất", fillcolor="#97266D", color="#97266D"];
+    "subject_nguoi_su_dung_dat" [label="Người sử dụng\nđất", fillcolor="#553C9A", color="#553C9A"];
+    "proc_dang_ky_bien_phap_bao_dam_the_chap" [label="Thủ tục đăng ký\nthế chấp quyền sử\ndụng đất, nhà ở", fillcolor="#97266D", color="#97266D"];
+
+    "vn_law_2013_45_2013_qh13" -> "vn_law_2013_45_2013_qh13_chapter_11" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_chapter_11" -> "vn_law_2013_45_2013_qh13_chapter_11_section_5" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_chapter_11_section_5" -> "vn_law_2013_45_2013_qh13_article_188" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_article_188" -> "vn_law_2013_45_2013_qh13_article_188_clause_1" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_article_188" -> "vn_law_2013_45_2013_qh13_article_188_clause_2" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_article_188" -> "vn_law_2013_45_2013_qh13_article_188_clause_3" [label="CONTAINS"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_1" -> "subject_nguoi_su_dung_dat" [label="APPLIES_TO"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_1" -> "concept_chuyen_nhuong_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_1" -> "concept_the_chap_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_1" -> "concept_gop_von_bang_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_2" -> "concept_gop_von_bang_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_2" -> "concept_the_chap_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_2" -> "concept_tang_cho_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_2" -> "subject_nguoi_su_dung_dat" [label="APPLIES_TO"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_3" -> "concept_gop_von_bang_quyen_su_dung_dat" [label="REGULATES"];
+    "vn_law_2013_45_2013_qh13_article_188_clause_3" -> "concept_the_chap_quyen_su_dung_dat" [label="REGULATES"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "cond_co_giay_chung_nhan_qsd_dat" [label="HAS_CONDITION"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "cond_dat_khong_co_tranh_chap" [label="HAS_CONDITION"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "cond_quyen_su_dung_dat_khong_bi_ke_bien" [label="HAS_CONDITION"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "cond_trong_thoi_han_su_dung_dat" [label="HAS_CONDITION"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "proc_chuyen_nhuong_quyen_su_dung_dat" [label="HAS_PROCEDURE"];
+    "concept_chuyen_nhuong_quyen_su_dung_dat" -> "proc_dang_ky_bien_dong_dat_dai" [label="HAS_PROCEDURE"];
+    "concept_the_chap_quyen_su_dung_dat" -> "proc_dang_ky_bien_phap_bao_dam_the_chap" [label="HAS_PROCEDURE"];
+}

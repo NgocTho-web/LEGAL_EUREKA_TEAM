@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # 1. Neo4j (Graph Database) - Giữ nguyên volume neo4j_data để bảo toàn dữ liệu KG
+  neo4j:
+    image: neo4j:5-community
+    container_name: eureka-neo4j
+    ports:
+      - "7475:7474" # HTTP Browser
+      - "7688:7687" # Bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+    restart: always
+
+  # 2. Qdrant (Vector Database) - Phục vụ lưu trữ vector embeddings
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: eureka-qdrant
+    ports:
+      - "6334:6333" # Port REST API ngoài host
+      - "6335:6334" # Port gRPC ngoài host
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: always
+
+  # 3. Redis (Cache / Message Broker)
+  redis:
+    image: redis:alpine
+    container_name: eureka-redis
+    ports:
+      - "6380:6379" # Port Redis ngoài host
+    volumes:
+      - redis_data:/data
+    restart: always
+
+volumes:
+  neo4j_data:
+    external: false # Giữ nguyên volume cũ của Neo4j
+  qdrant_data:
+  redis_data:
