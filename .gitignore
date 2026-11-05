@@ -1,0 +1,18 @@
+# Large archive files
+*.zip
+
+# Large generated Knowledge Graph image
+LEGAL_PROJECT/eureka/visualization/global_legal_kg.png
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
